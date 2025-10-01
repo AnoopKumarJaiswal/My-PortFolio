@@ -1,5 +1,5 @@
 import React from "react"
-import { FaLinkedin, FaInstagram, FaTwitter , FaFacebook, FaSnapchat } from "react-icons/fa"
+import { FaLinkedin, FaInstagram, FaTwitter , FaFacebook, FaSnapchat, FaGithub } from "react-icons/fa"
 
 const Footer = () =>{
     // smooth scrool Function
@@ -41,7 +41,7 @@ const Footer = () =>{
                         {icon : <FaInstagram />, link :"https://www.instagram.com/its_anoop47/"},
                         {icon : <FaFacebook />, link :"https://www.facebook.com/anoop.k.jaiswal.1"},
                         {icon : <FaLinkedin />, link :"https://www.linkedin.com/in/anoop-kumar-jaiswal-59a109352/"},
-                        {icon : <FaSnapchat />, link :"https://www.youtube.com/watch?v=ypSc8HEurGQ&t=10371s"},
+                        {icon : <FaGithub />, link :"https://github.com/AnoopKumarJaiswal"},
                     ].map((item, index) =>(
                         <a 
                         key={index}
