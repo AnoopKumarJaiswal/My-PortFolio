@@ -26,7 +26,7 @@ const Education = () => {
           <div
             key={edu.id}
             className={`relative flex flex-col sm:flex-row items-center mb-16 ${
-              index % 2 === 0 ? "sm:justify-start m-[-10px]" : "sm:justify-end m-[-10px]"
+              index % 2 === 0 ? "sm:justify-start m-[-15px]" : "sm:justify-end m-[-15px]"
             }`}
           >
             {/* Timeline Circle */}

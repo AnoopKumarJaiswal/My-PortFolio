@@ -38,10 +38,10 @@ const Footer = () =>{
                 {/* Social Media Icon*/}
                 <div className="flex flex-wrap justify-center space-x-4 mt-6">
                     {[
-                        {icon : <FaInstagram />, link :"https://www.youtube.com/watch?v=ypSc8HEurGQ&t=10371s"},
-                        {icon : <FaFacebook />, link :"https://www.youtube.com/watch?v=ypSc8HEurGQ&t=10371s"},
+                        {icon : <FaInstagram />, link :"https://www.instagram.com/its_anoop47/"},
+                        {icon : <FaFacebook />, link :"https://www.facebook.com/anoop.k.jaiswal.1"},
+                        {icon : <FaLinkedin />, link :"https://www.linkedin.com/in/anoop-kumar-jaiswal-59a109352/"},
                         {icon : <FaSnapchat />, link :"https://www.youtube.com/watch?v=ypSc8HEurGQ&t=10371s"},
-                        {icon : <FaLinkedin />, link :"https://www.youtube.com/watch?v=ypSc8HEurGQ&t=10371s"}
                     ].map((item, index) =>(
                         <a 
                         key={index}

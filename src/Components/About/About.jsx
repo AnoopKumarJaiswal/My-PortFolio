@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter'
 import Tilt from "react-parallax-tilt"
-import ProfileImage from "../../assets/Profile.png"
+import ProfileImage from "../../assets/anoop22.jpg"
 
 const About = () =>{
    return (
@@ -42,7 +42,7 @@ const About = () =>{
             </p>
             {/* Resume Button */}
             <a 
-            href=""
+            href="https://drive.google.com/file/d/1CYl-E37nrJpXZpmkWKcWOk2x0Vn82eA2/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -66,7 +66,7 @@ const About = () =>{
             transitionSpeed={1000}
             gyroscope={true}
             >
-            <img className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)] cursor-pointer" src={ProfileImage}alt="Anoop" />
+            <img className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)] cursor-pointer " src={ProfileImage}alt="Anoop" />
             </Tilt>
 
             </div>
