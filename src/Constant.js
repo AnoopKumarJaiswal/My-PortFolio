@@ -155,7 +155,7 @@ export const SkillsInfo = [
       school: "Balrampur Mordern School, Balrampur",
       date: "Apr 2014 - March 2016",
       grade: "80.5%",
-      desc: "I have completed my class 10 education from Vatsalya Balrampur Modern School,Balrampur, under the UP board, where I studied Science .",
+      desc: "I have completed my class 10 education from  Balrampur Mordern School,Balrampur, under the UP board, where I studied Science .",
       degree: "UP Board(X), Science ",
     },
 
